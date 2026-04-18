@@ -8,7 +8,14 @@ This repository is used for creating homework submissions and presentations for 
 ## Structure
 
 - Each homework lives in `hwN/` with a `main.typ` (Typst source).
+- Lecture slides live in `slides/` as `slides_N.pdf` (one per week).
 - `README.md` is the repo-level description.
+
+## Lecture Topics by Week
+
+- **Week 1 — Why Learning Theory?** Online prediction, the No-Free-Lunch Theorem, how structure helps (hypothesis classes), Halving algorithm (finite classes), Perceptron (linear predictors with margin).
+- **Week 2 — The combinatorial core of learning.** Restriction and growth function, shattering and VC dimension, Sauer-Shelah lemma.
+- **Week 3 — Transductive, i.i.d., and PAC learning.** Classical (Vapnik) transductive setting, the i.i.d. model, PAC learning.
 
 ## Guidelines
 
