@@ -22,6 +22,7 @@ This repository is used for creating homework submissions and presentations for 
 - Homework is written in **Typst**. Do not convert to LaTeX or other formats.
 - Be mathematically rigorous. Proofs must be precise and complete — no hand-waving.
 - Be concise. Avoid unnecessary prose; let the math speak.
+- In Typst math, always write expectations as `EE[...]` and probabilities as `PP[...]` (they render as blackboard-bold $EE$ and $PP$). Do not define `#let` macros for them.
 - Do not modify the homework template preamble unless asked.
 - When editing `main.typ`, preserve the existing document structure and formatting conventions.
 - Do not commit compiled PDFs or auxiliary build artifacts.

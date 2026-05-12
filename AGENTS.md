@@ -33,6 +33,7 @@ Applies to homework and slide sources.
 - Keep the existing document structure intact.
 - Reuse the local macros and formatting patterns already present in the file.
 - When revising mathematical exposition, favor short, direct statements over narrative explanation.
+- For expectations, always write `EE[...]`; for probabilities, always write `PP[...]`. In Typst math these render as blackboard-bold $EE$ and $PP$. Do not define `#let` macros for them.
 - Only update compiled PDFs when the task explicitly calls for regenerated deliverables.
 
 ## Python guidance
